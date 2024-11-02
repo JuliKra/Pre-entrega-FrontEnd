@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Julieta Krawiecki Pre-entrega</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <h1 id="logo">do gamer be</h1>
+        <div class="row">
+            <nav class="col navbar navbar-expand-md">
+                <button class="navbar-toggler ml-auto menu" type="button" data-toggle="collapse" data-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Menú Hamburguesa">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav text-center ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#descarga">Descarga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reseñas">Reseñas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Redes">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container-fluid" id="banner">
+        <div class="row">
+            <h2>Nueva App Móvil</h2>
+            <p>Descarga nuestra APP y no te pierdas de los mejores juegos al mejor precio donde y cuando quieras.</p>
+            <div id="botones">
+                <a href="https://play.google.com/store?hl=es&gl=US" target="_blank"><img src="img/playstore.png" class="img-fluid" alt="boton de descarga para play store" /></a>
+                <a href="https://www.apple.com/la/app-store/" target="_blank"><img src="img/appstore.png" class="img-fluid" alt="boton descarga para app store" /></a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container" id="nosotros">
+        <section class="row">
+            <h3>Características sobre nosotros</h3>
+            <div class="col-lg-6 col-sm-12 izquierda">
+                <img src="img/icono1.png" class="img-fluid" alt="icono de simplificación" />
+                <p>Simplificación en la compra, juegos anticipados,
+                    <span class="color">filtros de búsqueda</span> claros, en <span class="color">pesos argentinos</span> disponible para <span class="color">móvil</span> y pc.
+                    Disfruta de actualizaciones automáticas, almacenamiento en la nube, control
+                    contra piratería y antihacks, entre otros beneficios.</p>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 derecha">
+                <img src="img/icono2.png" class="img-fluid" alt="icono reloj" />
+                <p>Descarga nuestra app para móvil en 3 simples pasos</p>
+                <ol>
+                    <li><span class="numerito">1)</span> descarga en app store o play store</li>
+                    <li><span class="numerito">2)</span> instala</li>
+                    <li><span class="numerito">3)</span> juega a tus títulos favoritos de PC con dgb</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <section class="container-fluid" id="contpara">
+        <div class="row" id="parallax">
+            <img src="img/diagonal.png" class="img-fluid" alt="diagonales" />
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row">
+        <h3 class="titulo-producto">Productos destacados</h3>
+    <div class="productos" id="productos">
+        <div class="card-game">
+            <img src="img/Phasmophobia.jpg"
+                alt="Phasmophobia">
+            <h3>Phasmophobia</h3>
+            <p>Phasmophobia es un videojuego de terror independiente desarrollado por Kinetic Games.
+            </p>
+            <h6> $120.00</h6>
+            <ul class="ul-game">
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+            </ul>
+            <Button class="button-game">Buy now</button>
+        </div>
+
+        <div class="card-game">
+            <img src="img/PUBG.jpg"
+                alt="PUBG">
+            <h3>PUBG</h3>
+            <p>PUBG: Battlegrounds es un videojuego de batalla en línea multijugador masivo.
+            </p>
+            <h6> $40.00</h6>
+            <ul class="ul-game">
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+            </ul>
+            <Button class="button-game">Buy now</button>
+        </div>
+
+        <div class="card-game">
+            <img src="img/FallGuys.jpg"
+                alt="Fall Guys">
+            <h3>Fall Guys</h3>
+            <p>Fall Guys es un videojuego de plataformas y battle royale gratuito desarrollado por Mediatonic.
+            </p>
+            <h6> $1000.00</h6>
+            <ul class="ul-game">
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+            </ul>
+            <button class="button-game">Buy now</button>
+        </div>
+
+        <div class="card-game">
+            <img src="img/Raft.jpg"
+                alt="Raft">
+            <h3>Raft</h3>
+            <p>Raft es un videojuego de sandbox de supervivencia de mundo abierto.
+            </p>
+            <h6> $100.00</h6>
+            <ul class="ul-game">
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+            </ul>
+            <Button class="button-game">Buy now</button>
+        </div>
+        <div class="card-game">
+            <img src="img/RainbowSix.jpg"
+                alt="Rainbow Six">
+            <h3>Rainbow Six</h3>
+            <p>Tom Clancy's Rainbow Six: Siege es un videojuego de disparos táctico en línea.
+            </p>
+            <h6> $100.00</h6>
+            <ul class="ul-game">
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+            </ul>
+            <Button class="button-game">Buy now</button>
+        </div>
+        <div class="card-game">
+            <img src="img/Terraria.jpg"
+                alt="Terraria">
+            <h3>Terraria</h3>
+            <p>Terraria es un videojuego de acción, aventura y de sandbox.
+            </p>
+            <h6> $100.00</h6>
+            <ul class="ul-game">
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star checked"></i></li>
+                <li class="list-game"><i class="fas fa-star"></i></li>
+            </ul>
+            <Button class="button-game">Buy now</button>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="container-fluid" id="reseñas">
+    <h3>Reseñas de Nuestros Clientes</h3>
+    <div class="reseñas-container">
+        <div class="reseña">
+            <img src="https://img.freepik.com/vector-gratis/cute-girl-gaming-holding-joystick-cartoon-icon-illustration-concepto-icono-tecnologia-personas-aislado-estilo-dibujos-animados-plana_138676-2169.jpg?t=st=1730575469~exp=1730579069~hmac=bcd76b48c26a7b15012ea96e26c5d35c2dc5703befd5266025889f3b35051c67&w=1380" alt="Avatar de Usuario">
+            <div class="reseña-texto">
+                <h4>Cami003</h4>
+                <ul class="ul-game">
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                </ul>
+                <p>Precios en pesos argentinos, es excelente</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <img src="https://img.freepik.com/vector-gratis/cute-panda-beber-boba-milk-tea-cartoon-vector-ilustracion-animal-food-concept-aislado-vector-estilo-dibujos-animados-plana_138676-1949.jpg?t=st=1730575540~exp=1730579140~hmac=4823d5e982a39bbfa57150b7f667052c9da6ccf07a360dd280117ffbd6fdba42&w=1380" alt="Avatar de Usuario">
+            <div class="reseña-texto">
+                <h4>GamerPand4</h4>
+                <ul class="ul-game">
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                </ul>
+                <p>Siempre cuentan con los últimos juegos estrenados y super economicos</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <img src="https://img.freepik.com/vector-gratis/cute-girl-gaming-holding-joystick-mano-peace-cartoon-icon-illustration-concepto-icono-tecnologia-personas-aislado-estilo-dibujos-animados-plana_138676-2168.jpg?t=st=1730575582~exp=1730579182~hmac=b06b34c81e146eab92c2241df7bc88f638e25b88c7d31fb3a83305a772002771&w=1380" alt="Avatar de Usuario">
+            <div class="reseña-texto">
+                <h4>Julia Ortiz</h4>
+                <ul class="ul-game">
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                </ul>
+                <p>Descargas ágiles y buen servicio al cliente.</p>
+            </div>
+        </div>
+        <div class="reseña">
+            <img src="https://img.freepik.com/vector-gratis/ilustracion-icono-vector-dibujos-animados-lindo-dj-tocando-musica-concepto-icono-musica-personas-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3699.jpg?t=st=1730575617~exp=1730579217~hmac=d1fa52d40046c7b42eb90638599d1cbd19eb7df6720525bf9b031e910fde2034&w=1380" alt="Avatar de Usuario">
+            <div class="reseña-texto">
+                <h4>Juan Dorean</h4>
+                <ul class="ul-game">
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star checked"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                    <li class="list-game"><i class="fas fa-star"></i></li>
+                </ul>
+                <p>Los mejores juegos al mejor precio!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="container-fluid" id="descarga">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Descarga en un solo clic</h3>
+                <p>Una aplicación destinada a los gamers con los mejores precios y los más actuales juegos. Haz clic para descargar la versión oficial de nuestra app.</p>
+                <button class="btn btn-success" onclick="window.location.href='https://play.google.com/store?hl=es&gl=US'">Descarga ahora para Android</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="comunidad">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <img src="img/comunidad.jpg" class="img-fluid" alt="teclado gamer" />
+            </div>
+            <div class="col-lg-5 col-sm-12">
+                <p>Tienes nuestro Discord para poder jugar y comunicarte con otros gamers
+                    disfrutando de nuestros servicios, creemos que la mejor manera de jugar es compartiendo, por eso te
+                    presentamos nuestro Discord.</p>
+                <button onclick="window.location.href='https://discord.com'" class="btn btn-success">DISCORD</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="contacto">
+        <h3>Contactanos</h3>
+        <form id="gamerForm"
+        action="https://formspree.io/f/xkgnjqlz"
+        method="POST">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ej: Juan Pérez">
+    
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" id="username" name="username" required placeholder="Ej: GamerPro123">
+    
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="Ej: email@ejemplo.com">
+    
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+    
+            <button type="submit" class="button-form">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="Redes">
+                <ul>
+                    <li class="IconosRedes" id="Instagram"><a href="https://www.instagram.com" target="_blank"><span>Instagram</span></a></li>
+                    <li class="IconosRedes" id="Facebook"><a href="https://www.facebook.com" target="_blank"><span>Facebook</span></a></li>
+                    <li class="IconosRedes" id="Youtube"><a href="https://www.youtube.com" target="_blank"><span>Youtube</span></a></li>
+                    <li class="IconosRedes" id="Mail"><a href="mailto:julieta.krawiecki@davinci.edu.ar" target="_blank"><span>Mail</span></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <div class="NavPag" id="NavPagLogo"></div>
+            </div>
+
+            <div class="col-md-6" id="textito">
+                <p>Descubrí los mejores juegos</p>
+            </div>
+
+            <div class="col-12" id="derechos">
+                <p> © 2024 JS FrontEnd Julieta Krawiecki </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
