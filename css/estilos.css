@@ -3,6 +3,7 @@
 body{
     font-family: "Montserrat";
     font-weight: 400;
+    background-color: white;
 }
 a {
     color: white;
@@ -55,8 +56,7 @@ header .row {
 header {
     position: relative;
 }
-
-/* Banner Styles */
+  /* Banner Styles */
 #banner {
     background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
@@ -161,85 +161,115 @@ main {
     background-size: cover;
 }
 
+.cart-icon {
+    font-size: 18px;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+button.navbar-toggler{
+    color: antiquewhite;
+    background-color: aliceblue;
+}
+
+a.nav-link{
+    font-size: 0.9rem;
+    color: white;
+    text-shadow: 10px 10px 20px rgb(9, 10, 9);
+}
+
+section.baner.container-fluid{
+    padding-top: 4.2rem;
+    --bs-gutter-x: -1.5rem;
+}
+
+
+
+.modal-body {
+    background: linear-gradient(to left, rgba(171, 97, 198, 1) 0%, rgba(171, 97, 198, 1) 36%, rgba(47, 0, 148, 1) 69%, rgba(47, 0, 148, 1) 100%);;
+}
+
+
 /* Juegos Section Styles */
 .titulo-producto{
-text-align: center;
-margin: 0 auto;
-padding-top: 5%;
-font-size: 2em;
-font-family: "Montserrat";
-font-weight: 700;
-}
-
-.productos{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
-}
-
-.card-game {
-    width: 20%;
-    min-width: 250px;
-    margin: 15px;
-    text-align: center;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: #f2f2f2;
-    padding-top: 10px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.20), 0 10px 10px rgba(0, 0, 0, 0.20);
-}
-
-.card-game:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.24);
-    transform: translateY(-3px);
-}
-
-.card-game img{
-    width: 200px;
-    height: 200px;
     text-align: center;
     margin: 0 auto;
-    display: block;
-    border-radius: 16px;
-}
-
-.ul-game {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0;
-}
-
-.list-game{
-    padding-left: 4px;
-}
-
-.fas {
-    font-size: 24px;
-}
-
-.checked {
-    color: gold;
-}
-
-.button-game {
-    text-align: center;
-    width: 100%;
-    border: none;
-    background-color:#C133C1;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-    margin-top: 10px;
-    outline: none;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+    padding-top: 5%;
+    font-size: 2em;
+    font-family: "Montserrat";
+    font-weight: 700;
+    }
+    
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+    }
+    
+    .card-game {
+        min-width: 250px;
+        margin: 15px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.20), 0 10px 10px rgba(0, 0, 0, 0.20);
+    }
+    
+    .card-game:hover {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.24);
+        transform: translateY(-3px);
+    }
+    
+    .card-game img{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        border-radius: 16px;
+    }
+    
+    .ul-game {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+    
+    .list-game{
+        padding-left: 4px;
+    }
+    
+    .fas {
+        font-size: 24px;
+    }
+    
+    .checked {
+        color: gold;
+    }
+    
+    .button-game {
+        text-align: center;
+        width: 100%;
+        border: none;
+        background-color:#C133C1;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        margin-top: 10px;
+        outline: none;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
 
 #reseñas {
     color: #ffffff;
@@ -304,6 +334,11 @@ font-weight: 700;
     font-size: 0.95em;
     line-height: 1.4;
     color: #b0b0b0;
+}
+
+h5.card-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* Descarga Section Styles */
@@ -517,8 +552,47 @@ footer a {
     padding-bottom: 1%;
 }
 
+@media screen and (min-width:576px){
+    a.btn.btn-warning {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (min-width:768px){
+    .header__h1{
+        font-size: 1.8rem;
+    }
+    img.mt-1{
+        margin-top: 1.25rem!important;
+    }
+    .navbar-expand-md {
+        padding-top: 1.5rem;
+    }
+    a.nav-link{
+        font-size: 1.2rem;
+     
+    }
+    section.baner.container-fluid{
+        padding-top: 6rem;
+        --bs-gutter-x: -1.5rem;
+    }
+    .footer__h2{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+
+    }
+}
+
 /* Media Queries */
 @media screen and (max-width: 992px) {
+    .cart-icon {
+        font-size: 25px;
+         cursor: pointer;
+         margin-top: 1.5rem;
+     }
+    
     #banner {
         height: 350px;
     }
