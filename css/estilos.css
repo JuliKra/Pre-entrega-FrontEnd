@@ -188,7 +188,7 @@ section.baner.container-fluid{
 
 
 .modal-body {
-    background: linear-gradient(to left, rgba(171, 97, 198, 1) 0%, rgba(171, 97, 198, 1) 36%, rgba(47, 0, 148, 1) 69%, rgba(47, 0, 148, 1) 100%);;
+    background-color: rgba(171, 97, 198, 1);
 }
 
 
